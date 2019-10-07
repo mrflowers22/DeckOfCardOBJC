@@ -68,8 +68,7 @@
 				1B241CA3234B9CA400E23AAA /* Model */,
 				1B241C8D234B9B8200E23AAA /* AppDelegate.h */,
 				1B241C8E234B9B8200E23AAA /* AppDelegate.m */,
-				1B241C90234B9B8200E23AAA /* ViewController.h */,
-				1B241C91234B9B8200E23AAA /* ViewController.m */,
+				1B241CAB234BB8A600E23AAA /* View Controllers */,
 				1B241C93234B9B8200E23AAA /* Main.storyboard */,
 				1B241C96234B9B8300E23AAA /* Assets.xcassets */,
 				1B241C98234B9B8300E23AAA /* LaunchScreen.storyboard */,
@@ -95,6 +94,15 @@
 				1B241CA9234BA5A600E23AAA /* MRFCardController.m */,
 			);
 			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		1B241CAB234BB8A600E23AAA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B241C90234B9B8200E23AAA /* ViewController.h */,
+				1B241C91234B9B8200E23AAA /* ViewController.m */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
