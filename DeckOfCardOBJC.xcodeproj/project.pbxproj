@@ -14,6 +14,7 @@
 		1B241C9A234B9B8300E23AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B241C98234B9B8300E23AAA /* LaunchScreen.storyboard */; };
 		1B241C9D234B9B8300E23AAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B241C9C234B9B8300E23AAA /* main.m */; };
 		1B241CA6234B9EB400E23AAA /* MRFCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B241CA5234B9EB400E23AAA /* MRFCard.m */; };
+		1B241CAA234BA5A600E23AAA /* MRFCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B241CA9234BA5A600E23AAA /* MRFCardController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		1B241C9C234B9B8300E23AAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B241CA4234B9EB400E23AAA /* MRFCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRFCard.h; sourceTree = "<group>"; };
 		1B241CA5234B9EB400E23AAA /* MRFCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRFCard.m; sourceTree = "<group>"; };
+		1B241CA8234BA5A600E23AAA /* MRFCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRFCardController.h; sourceTree = "<group>"; };
+		1B241CA9234BA5A600E23AAA /* MRFCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRFCardController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		1B241C8C234B9B8200E23AAA /* DeckOfCardOBJC */ = {
 			isa = PBXGroup;
 			children = (
+				1B241CA7234BA58E00E23AAA /* Model Controller */,
 				1B241CA3234B9CA400E23AAA /* Model */,
 				1B241C8D234B9B8200E23AAA /* AppDelegate.h */,
 				1B241C8E234B9B8200E23AAA /* AppDelegate.m */,
@@ -82,6 +86,15 @@
 				1B241CA5234B9EB400E23AAA /* MRFCard.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1B241CA7234BA58E00E23AAA /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B241CA8234BA5A600E23AAA /* MRFCardController.h */,
+				1B241CA9234BA5A600E23AAA /* MRFCardController.m */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B241CAA234BA5A600E23AAA /* MRFCardController.m in Sources */,
 				1B241C92234B9B8200E23AAA /* ViewController.m in Sources */,
 				1B241C9D234B9B8300E23AAA /* main.m in Sources */,
 				1B241C8F234B9B8200E23AAA /* AppDelegate.m in Sources */,
